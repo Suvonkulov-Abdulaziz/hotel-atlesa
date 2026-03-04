@@ -4,6 +4,7 @@ import WhyChooseUs from './components/WhyChooseUs'
 import Rooms from './components/Rooms'
 import VideoSection from './components/VideoSection'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <VideoSection />
         <Testimonials />
       </main>
+      <Footer />
     </div>
   )
 }
