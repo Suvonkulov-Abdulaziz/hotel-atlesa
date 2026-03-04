@@ -249,3 +249,71 @@ input, textarea, select {
   background-color: var(--color-gold);
   color: var(--color-white);
 }
+
+/* Button Base Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--color-gold);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-gold-dark);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-brown-dark);
+  border: 1px solid var(--color-gray-300);
+}
+
+.btn-secondary:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
+/* Section Styles */
+.section {
+  padding: var(--space-20) 0;
+}
+
+.section-title {
+  font-size: var(--text-4xl);
+  margin-bottom: var(--space-4);
+}
+
+.section-subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-brown-light);
+  max-width: 600px;
+}
+
+/* Gold Accent Text */
+.text-gold {
+  color: var(--color-gold);
+}
+
+/* App Container */
+.app {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
